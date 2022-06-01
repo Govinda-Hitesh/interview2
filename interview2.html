@@ -1,0 +1,64 @@
+1.Explain call(), apply() and, bind() methods.
+Call invokes the function and allows you to pass in arguments one by one.
+Apply invokes the function and allows you to pass in arguments as an array.
+Bind returns a new function, allowing you to pass in a this array and any number of arguments.
+exp:- 
+
+2.Explain prototypes
+The prototype is an object that is associated with every functions and objects by default in JavaScript
+
+3.What are promises and why do we need them?
+Promises are used to handle asynchronous operations in JavaScript.
+
+4.What are function constructors?
+the Function constructor creates a new Function object. Calling the constructor directly can create functions dynamically
+
+5.What is hoisting?
+the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code
+
+6.What is the DOM?
+Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document
+
+7.Difference between undefined vs not defined vs NaN
+null is an object with a valid non-existent value and it is non-mutable while object type of an undefined value is in itself undefined
+
+8.What are pure functions?
+A Pure Function is a function (a block of code) that always returns the same result if the same arguments are passed.
+
+9.How many operators do we have in JS ?
+JavaScript Operators are as rich as what you'd expect from any modern language. There are four categories: arithmetic, comparison, assignment, and logical.
+
+10.What is the purpose of async/await keywords?
+The async keyword turns a method into an async method, which allows you to use the await keyword in its body
+
+11.What is an event loop and call stack
+The event loop continuously checks the call stack to see if there's any function that needs to run
+
+12.What is prototype chain
+all the objects in JavaScript, inherit the properties and methods from Object. prototype. This is called Prototype chaining.
+
+13.What is the use of setTimeout
+setTimeout() The global setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires
+function greet() {
+    alert('Welcome!');
+   }
+   setTimeout(greet, 2000); //execute greet after 2000 milliseconds (2 seconds)
+
+14.Callback function
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete
+
+function greeting(name) {
+    alert('Hello ' + name);
+  }
+  
+  function processUserInput(callback) {
+    var name = prompt('Please enter your name.');
+    callback(name);
+  }
+  
+  processUserInput(greeting);
+
+15.What is callback hell JavaScript
+Callback hell is a phenomenon that afflicts a JavaScript developer when he tries to execute multiple asynchronous operations one after the other. By nesting callbacks
+
+
